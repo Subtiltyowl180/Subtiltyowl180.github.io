@@ -2,6 +2,7 @@
 {
     margin: 0;
     padding: 0;
+    overflow-x: hidden
 }
 header
 {
@@ -13,8 +14,8 @@ header
 
 header img{
 
-padding-top: 15%;
-padding-bottom: 10%;
+padding-top: 11%;
+padding-bottom: 11%;
 
 }
 
@@ -78,10 +79,10 @@ body
     font-family:Century Gothic;
 }
 
-.MainImg img{
+.MainImg {
 
-  width:250px;
-  height: 150px;
+  width:850px;
+  height:550px;
 
 }
 
@@ -109,7 +110,7 @@ h1
     font-size: 60px;
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 143px; 
+    margin-bottom: 12px; 
 
 
 } 
@@ -120,7 +121,11 @@ color:white;
     font-size: 55px;
     text-align: center;
     margin-top: 40px;
-    opacity: 80%;  
+
+    opacity: 100%;  
+=======
+      
+
     padding-bottom: 70px;  
 
 }
@@ -167,10 +172,14 @@ h3{
 }
 
 .imageclass {
-  width:150px; 
-  height:150px;
+
+  width:250px; 
+  height:250px;
   border-radius:50%;
    padding: 75px;
+   margin-right: 80px;
+=======
+ 
  }
 
 
@@ -180,7 +189,18 @@ h3{
  grid-row-gap:100%;
  padding-right: 50px;
 quotes: 100px;
-padding-bottom: 50px;
+  padding-bottom: 60px;
+
+
+
+}
+
+.pics q{
+
+margin-right:60px;
+
+
+
 
 }
 
